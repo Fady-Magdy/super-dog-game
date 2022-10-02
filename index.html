@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Lobster&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Super Dog Game</title>
+  </head>
+  <body>
+    <div class="menu-container">
+      <button class="menu-title">Course Steps</button>
+      <div class="menu">
+        <ul>
+          <li>
+            <a target="blank" href="./pages/character animation/index.html"
+              >Character Animation</a
+            >
+          </li>
+          <li>
+            <a
+              target="blank"
+              href="./pages/state management in games/index.html"
+              >Player State Management</a
+            >
+          </li>
+          <li>
+            <a target="blank" href="./pages/parallax background/index.html"
+              >Parallax Background Movement</a
+            >
+          </li>
+          <li>
+            <a target="blank" href="./pages/enemies movement/index.html"
+              >Enemies Movement</a
+            >
+          </li>
+          <li>
+            <a target="blank" href="./pages/enemies movement 2/index.html"
+              >Enemies Movement 2</a
+            >
+          </li>
+          <li>
+            <a target="blank" href="./pages/enemies movement 3/index.html"
+              >Enemies Movement 3</a
+            >
+          </li>
+          <li>
+            <a target="blank" href="./pages/shoot the raven/index.html"
+              >Shoot The Raven Game</a
+            >
+          </li>
+          <li>
+            <a target="blank" href="./pages/ignore the worm/"
+              >Ignore The Worm Game</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <canvas id="canvas1"></canvas>
+    <div class="info">
+      <div class="controls-info">
+        <span>Left - Right Arrow: Move</span>
+        <span>Up Arrow: Jump</span>
+        <span>Down Arrow: Sit</span>
+        <span>Enter: Enable SuperPower</span>
+      </div>
+      <div class="instructions">
+        Get 40 Score by killing Enemies using your SuperPower before time
+        reaches 30s
+      </div>
+    </div>
+    <img id="player" src="./images/player.png" alt="" />
+    <img id="layer1" src="./images/backgrounds/layer-1.png" alt="" />
+    <img id="layer2" src="./images/backgrounds/layer-2.png" alt="" />
+    <img id="layer3" src="./images/backgrounds/layer-3.png" alt="" />
+    <img id="layer4" src="./images/backgrounds/layer-4.png" alt="" />
+    <img id="layer5" src="./images/backgrounds/layer-5.png" alt="" />
+    <img id="enemy_fly" src="./images/enemies/enemy_fly.png" alt="" />
+    <img id="enemy_plant" src="./images/enemies/enemy_plant.png" alt="" />
+    <img
+      id="enemy_spider_big"
+      src="./images/enemies/enemy_spider_big.png"
+      alt=""
+    />
+    <img id="fire" src="./images/fire.png" alt="" />
+    <img id="collisionAnimation" src="./images/boom.png" alt="" />
+    <img id="lives" src="./images/lives.png" alt="" />
+    <script src="./script.js"></script>
+    <script src="./assets/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 84, 180),
+    rgb(42, 191, 250),
+    rgb(0, 150, 20)
+  );
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#collisionCanvas {
+  opacity: 0;
+}

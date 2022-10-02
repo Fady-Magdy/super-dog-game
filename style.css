@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+  overflow: hidden;
+}
+#canvas1 {
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Bangers", sans-serif;
+}
+
+img {
+  display: none;
+}
+
+.menu-container {
+  position: relative;
+  padding: 20px;
+  z-index: 5;
+}
+.menu-container .menu-title {
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.199);
+  border-radius: 20px;
+  border: none;
+  transition: 0.2s;
+}
+.menu-container .menu-title:hover {
+  background-color: rgba(255, 255, 255, 0.349);
+}
+.menu-container .menu {
+  position: absolute;
+  top: 70px;
+  background-color: rgba(0, 0, 0, 0.89);
+  padding: 0 10px 10px;
+  border-radius: 10px;
+  scale: 0;
+  opacity: 0;
+  transition: 0.4s;
+  transform-origin: 0 0;
+}
+.menu-container .show {
+  scale: 1;
+  opacity: 1;
+}
+.menu-container .menu ul {
+  list-style: none;
+  color: #fff;
+}
+.menu-container .menu ul li {
+}
+.menu-container .menu ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.767);
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.103);
+}
+.menu-container .menu ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.233);
+}
+.info {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.controls-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.instructions {
+  font-size: 20px;
+  text-align: center;
+}
